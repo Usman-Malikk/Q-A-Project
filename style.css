@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    /* Joining writing font link */
+    /* font-family: 'Dancing Script', cursive; */
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 40px;
+margin-bottom: 60px;
+font-size: 40px;
+color:#d5bb58
+/* color: ; */
+}
+.Qanda{
+min-height: 100vh;
+min-width: 100vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+h3{
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    position: relative;
+}
+.ico{
+    position: absolute;
+    right: 0%;
+    font-size: 30px;
+    transition:0.2s ease-in-out ;
+    color:#d5bb58 ;
+    cursor: pointer;
+}
+.ic{
+transform: rotate(45deg);
+}
+hr{
+    color: #d5bb58;
+}
+.ans{
+    /* display: none; */
+    overflow: hidden;
+    display: none;
+    transition: 0.3s all ease-in-out;
+    /* z-index: -1; */
+}
+.qs
+{
+    display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/* justify-content: space-evenly; */
+max-width:500px ;
+}
+.q{
+    box-shadow: rgba(54, 54, 54, 0.25) 0px 14px 28px, rgba(34, 34, 34, 0.22) 0px 10px 10px;
+    margin-bottom: 30px;
+    padding: 50px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+p{
+    margin-top: 30px;
+}
+.cchange{
+    color: red;
+}
+.display{
+    display: block;
+    /* transform: translateY(0%); */
+}
